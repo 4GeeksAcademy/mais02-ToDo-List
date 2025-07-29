@@ -9,3 +9,28 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.closeButton .btn-close{
+  visibility: hidden;
+}
+
+.closeButton:hover .btn-close {
+  visibility: visible;
+}
+
+.list-group-item {
+  border-bottom: 1px solid lightgray;
+  padding: 10px 0 10px 60px;
+  font-size: x-large;
+}
+
+.list-group-item:hover{
+    padding-right: 20px;
+}
+
+input:focus{
+    outline: none;
+}
+
+input{
+    border: none;
+}
