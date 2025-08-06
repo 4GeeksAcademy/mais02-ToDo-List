@@ -1,8 +1,9 @@
-const Hover = ({ text, index, onDelete }) => {
+const Hover = (props) => {
+
     return (
         <li className="list-group-item closeButton d-flex justify-content-between align-items-center">
-            {text}
-            <button type="button" class="btn-close" aria-label="Close" onClick={() => onDelete(index)}></button>
+            {props.text}
+            <button type="button" className="btn-close" aria-label="Close" onClick={props.onDelete}></button>
         </li>
     )
 };
